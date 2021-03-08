@@ -1,14 +1,14 @@
 body {
-  background-color: powderblue;
+  background-color: blue;
 }
 h1 {
   color: blue;
 }
 p {
   border: 2px solid powderblue;
-  padding: 30px;
-  margin: 50px;
+  padding: 50px;
+  margin: 100px;
   align-content: center;
   color: white;
-  font-size:160%;
+  font-size:300%;
 }
