@@ -4,10 +4,20 @@
 <head>
   <link rel="stylesheet" href="stylesheet.css">
   <title>StupidChess.com</title>
+
+  <script>
+    function gregs_button() {
+      document.getElementById('demo').innerHTML = 'New Text';
+    }
+  </script>
+
 </head>
 
 <body>
   <p>Welcome to SupidChesss?!</p>
+  <p id='demo'>Original Text</p>
+
+  <button type='button' onclick='gregs_button()'>Try Me!</button>
 
   <hr>
   <a href=https://primepilot.github.io/test/index.html>Return to Index</a>
